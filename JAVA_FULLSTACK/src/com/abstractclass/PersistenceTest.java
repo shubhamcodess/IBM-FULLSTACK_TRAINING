@@ -1,5 +1,7 @@
 package com.abstractclass;
 
+
+
 abstract class Persistence{
 	abstract void persist();
 }
