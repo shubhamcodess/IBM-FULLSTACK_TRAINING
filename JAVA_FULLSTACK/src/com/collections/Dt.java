@@ -97,7 +97,7 @@ public class Dt {
 		map.put(new Date(2, 1,1998), "mno");
 		map.put(new Date(2, 1,1999), "abc");
 		map.put(new Date(3, 1,1998), "xyz");
-		map.put(new Date(3, 1,1998), "xyz");
+		map.put(new Date(3, 1,1998), "xyz2");
 		
        	
 		map.forEach((k, v) -> {

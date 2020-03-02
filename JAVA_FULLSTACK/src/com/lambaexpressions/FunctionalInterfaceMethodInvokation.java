@@ -17,7 +17,7 @@ public class FunctionalInterfaceMethodInvokation {
 		};
 		Consumer<Double> consumeD =(Double d)-> System.out.println("Power : "+d);
 		
-		Supplier supply = ()->{
+		Supplier<?> supply = ()->{
 			  					Random rand = new Random();
 			  					return rand.nextInt(50);
 								};
