@@ -6,11 +6,11 @@ import java.util.function.UnaryOperator;
 
 public class ReplaceWithUpperCase {
 	
-	
-
+	//static
 	public static void main(String[] args) {
-		List<String> newList =new ArrayList<String>();
 		
+		 List<String> newList =new ArrayList<String>();
+
 		newList.add("billy");
 		newList.add("Mario");
 		newList.add("shazam");
