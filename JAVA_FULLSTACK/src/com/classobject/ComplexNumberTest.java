@@ -9,9 +9,9 @@ class ComplexNumber{
 	this.imaginary=imaginary;
    }
 
-	public ComplexNumber add(ComplexNumber c){
-	double sreal=this.real+c.real;
-	double simaginary=this.imaginary + c.imaginary;
+	public ComplexNumber add(ComplexNumber c,ComplexNumber c2){
+	double sreal=c2.real+c.real;
+	double simaginary=c2.imaginary + c.imaginary;
 	ComplexNumber temp =new ComplexNumber(sreal,simaginary);
 	return temp;
   }

@@ -277,7 +277,7 @@ public class StreamAPIAssignments {
 		Map<String, List<News>> n=TestData.getAllNews().stream().collect((Collectors.groupingBy(News::getComment)));
 		
 		long c=	n.entrySet().stream().filter( (entry) -> entry.getValue().toString().contains("budget")).count();  //5
-		System.out.println("Tottal count of budget word : "+c);
+		System.out.println("Total count of budget word : "+c);
 		
 		System.out.println("--------------------------------------------------");
 		

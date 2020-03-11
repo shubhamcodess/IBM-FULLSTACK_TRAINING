@@ -73,7 +73,7 @@ public class CalculatorTest {
 		assertEquals(10,c.add(20, 10));
 	}
 	
-	@Test(timeout=1000)
+	@Ignore @Test(timeout=1000)
 	public void testTimeout()
 	{
 		c.toTestTimeout();
